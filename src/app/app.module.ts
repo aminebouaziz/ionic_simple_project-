@@ -9,7 +9,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
-import { FirstPage } from '../pages/first/first';
+
 import { RegisterPage } from '../pages/register/register';
 import { LoggedInPage } from './../pages/logged-in/logged-in';
 import { PostPage } from '../pages/post/post';
@@ -38,7 +38,6 @@ import { AngularFireDatabaseModule, AngularFireDatabase } from '@angular/fire/da
     MyApp,
     HomePage,
     LoginPage,
-    FirstPage,
     RegisterPage,
     LoggedInPage,
     HelpPage,
@@ -58,7 +57,6 @@ import { AngularFireDatabaseModule, AngularFireDatabase } from '@angular/fire/da
     MyApp,
     HomePage,
     LoginPage,
-    FirstPage,
     RegisterPage,
     LoggedInPage,
     HelpPage,

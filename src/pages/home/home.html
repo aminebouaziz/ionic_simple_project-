@@ -1,16 +1,18 @@
-<ion-header>
-  <ion-navbar>
+<ion-header >
+  <ion-navbar class="navbar">
     <ion-title>
      Welcome
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content padding class="body">
+  <img src="../../assets/imgs/CanYouHelp.png" alt="">
   <div padding>
-    <button block ion-button (click)="signIn()">Sign In</button>
+    <button block ion-button  color="danger" style="font-size:30px" (click)="signIn()">Sign in</button>
+    
   </div>
   <div padding>
-    <button block ion-button (click)="register()">register </button>
+    <button block ion-button  color="danger" style="font-size:30px" (click)="register()">register </button>
   </div>
 </ion-content>
