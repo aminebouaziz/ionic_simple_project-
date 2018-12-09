@@ -14,6 +14,7 @@ import firebase from 'firebase';
   templateUrl: 'post.html',
 })
 export class PostPage {
+ 
   items ;
   imageSource;
   email;

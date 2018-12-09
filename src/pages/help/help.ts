@@ -6,6 +6,7 @@ import { AngularFireAuth } from '@angular/fire/auth';
 
 
 import { AngularFireDatabase, AngularFireList } from '@angular/fire/database';
+import { PostPage } from '../post/post';
 
 
 @IonicPage()
@@ -57,6 +58,8 @@ export class HelpPage {
       message:this.message.value,
       number:this.number.value
     });
-    console.log(this.helps);
+   
+    this.navCtrl.push(PostPage);   
    }
+  
 }
